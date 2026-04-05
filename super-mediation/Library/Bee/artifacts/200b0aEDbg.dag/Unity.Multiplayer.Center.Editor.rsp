@@ -132,6 +132,7 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_FONT_ENGINE_1_6_OR_NEWER
+-define:LEVELPLAY_DEPENDENCIES_INSTALLED
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
@@ -409,6 +410,12 @@
 -r:"/Applications/Unity/Hub/Editor/6000.4.1f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"/Applications/Unity/Hub/Editor/6000.4.1f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.dll"
 -r:"/Applications/Unity/Hub/Editor/6000.4.1f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll"
+-r:"Assets/MobileDependencyResolver/Editor/1.2.185/Google.IOSResolver.dll"
+-r:"Assets/MobileDependencyResolver/Editor/1.2.185/Google.JarResolver.dll"
+-r:"Assets/MobileDependencyResolver/Editor/1.2.185/Google.PackageManagerResolver.dll"
+-r:"Assets/MobileDependencyResolver/Editor/1.2.185/Google.VersionHandlerImpl.dll"
+-r:"Assets/MobileDependencyResolver/Editor/Google.VersionHandler.dll"
+-r:"Library/PackageCache/com.unity.nuget.newtonsoft-json@4dfd81071c64/Runtime/Newtonsoft.Json.dll"
 -r:"Library/Bee/artifacts/200b0aEDbg.dag/Unity.Multiplayer.Center.Common.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.4.1f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.4.1f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
